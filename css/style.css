@@ -1,0 +1,235 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  text-decoration: none;
+}
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+p {
+  color: dimgray;
+}
+
+h1 span {
+  color: orange;
+}
+section {
+  margin-bottom: 80px;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: rgba(252, 122, 0, 0.801);
+}
+.listnav ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 20px;
+  background-color: rgba(236, 113, 56, 0.952);
+  border-radius: 5px;
+}
+.listnav ul li:hover {
+  background-color: antiquewhite;
+}
+.search-bar {
+  padding: 20px;
+}
+.search-bar input {
+  padding: 10px;
+  width: 400px;
+  border: 7px;
+  border-radius: 5px;
+}
+.search-bar button {
+  padding: 10px;
+  width: 100px;
+  border: 7px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.search-bar button:hover {
+  background-color: salmon;
+  color: #fff;
+}
+
+.fast-header {
+  display: flex;
+}
+
+.fast-header-title {
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 100px;
+}
+.fast-header-title h1 {
+  font-weight: 900;
+  font-size: 70px;
+  text-transform: capitalize;
+}
+.fast-header-title p {
+  padding-bottom: 50px;
+  font-size: 25px;
+}
+.fast-header-image {
+  width: 50%;
+}
+.fast-header-image img {
+  width: 100%;
+}
+
+.link-button {
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  color: white;
+  font-weight: 700;
+  padding: 20px 50px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px lightsalmon;
+}
+
+/* about me */
+
+.about {
+  display: flex;
+  background-image: url(../images/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 634px;
+}
+.about-me h2 {
+  text-transform: capitalize;
+  color: #726e6e;
+}
+.about-image {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.about-image img {
+  width: 80%;
+}
+
+.about-me {
+  width: 50%;
+  padding: 80px;
+  margin-top: 30px;
+  line-height: 30px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+/* my-recipies */
+
+.my-recipies-about {
+  text-align: center;
+  padding: 25px 350px;
+}
+.my-recipies-about h2 {
+  text-transform: capitalize;
+  color: #726e6e;
+}
+.my-recipies-about p {
+  font-size: 21px;
+}
+.recipies-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+}
+
+.card1 {
+  width: 35%;
+  margin: 0 3%;
+  border: 25px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px #cecbcb;
+}
+
+.card2 {
+  width: 35%;
+  border: 25px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px #cecbcb;
+}
+
+.card3 {
+  width: 35%;
+  margin: 0 3%;
+  border: 25px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px #cecbcb;
+}
+.recipies-card-img {
+  width: 100%;
+}
+
+.baner-food {
+  display: flex;
+  justify-content: space-around;
+}
+.baner1 {
+  background-image: url(../images/bacola-banner-08.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: 200px;
+  padding: 35px;
+  border-radius: 10px;
+}
+.baner2 {
+  background-image: url(../images/bacola.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: 200px;
+  padding: 35px;
+  border-radius: 10px;
+}
+.baner1 a {
+  background: orangered;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+}
+.baner1 a:hover {
+  background-color: blue;
+  transition: 2s;
+}
+.baner2 a:hover {
+  background-color: blue;
+  transition: 2s;
+}
+.baner2 a {
+  background: orangered;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+}
+.footer-all-data {
+  background-color: black;
+  color: rgb(109, 186, 238);
+  text-align: center;
+  height: 250px;
+  padding-top: 10px;
+}
+.footer-all-data span {
+  color: orange;
+}
+.footer-all-data h2 {
+  text-transform: uppercase;
+  color: rgb(176, 191, 224);
+}
