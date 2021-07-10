@@ -35,6 +35,8 @@ section {
   width: 100%;
   justify-content: space-around;
   background-color: rgba(252, 122, 0, 0.801);
+  position: sticky;
+  top: 0px;
 }
 .listnav ul li {
   display: inline-block;
