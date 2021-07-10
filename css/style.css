@@ -42,11 +42,13 @@ section {
   display: inline-block;
   padding: 10px 20px;
   margin-left: 20px;
-  background-color: rgba(236, 113, 56, 0.952);
   border-radius: 5px;
 }
+.listnav ul li a {
+  color: #fff;
+}
 .listnav ul li:hover {
-  background-color: antiquewhite;
+  background-color: rgb(236, 83, 13);
 }
 .search-bar {
   padding: 20px;
